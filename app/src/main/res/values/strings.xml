@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GoodSurgery</string>
+    <string name="text_instruccion1">1. Pulse en “pulse aquí para comenzar”</string>
+    <string name="text_instruccion2">2. Una vez presione, seleccione el tipo de intervención/proceso/patología que le hayan explicado en la consulta</string>
+    <string name="text_instruccion3">3. Una vez dentro encontrará la informacion necesaria para el proceso, preoperatorio y postoperatorio</string>
+    <string name="text_instruccion4">4. ----------</string>
+    <string name="text_instruccion5">5. ----------</string>
+    <string name="text_instruccion6">6. ------------</string>
+
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.GoodSurgeryV2" parent="android:Theme.Material.Light.NoActionBar" >
+
+        <!-- Cambiar el color primario -->
+        <item name="android:colorPrimary">@color/colorPrimary</item> //Este es el color principal utilizado para la barra de aplicación (AppBar) y otros elementos de interfaz de usuario principales.
+
+        <!-- Cambiar el color de fondo -->
+        <item name="android:colorBackground">@color/colorPrimary</item>//Define el color de fondo principal de la interfaz de usuario, como el fondo de las pantallas y las tarjetas.
+
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+
+        <item name="android:icon">@drawable/logo_app</item>
+
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+
+
+
+    </style>
+</resources>
