@@ -39,8 +39,8 @@ fun RectoBodyContent(navController: NavController){
     ) {
         CustomContentPrincipal(
             onClick1 = { navController.navigate(route = AppScreens.InfoRectoScreen.route) },
-            onClick2 = { /*TODO*/ },
-            onClick3 = { /*TODO*/ })
+            onClick2 = { navController.navigate(route = AppScreens.PreoRectoScreen.route) },
+            onClick3 = { navController.navigate(route = AppScreens.PostRectoScreen.route) })
     }
 }
 

@@ -39,8 +39,8 @@ fun FisuraBodyContent(navController: NavController){
     ) {
         CustomContentPrincipal(
             onClick1 = { navController.navigate(route = AppScreens.InfoFisuraScreen.route) },
-            onClick2 = { /*TODO*/ },
-            onClick3 = { /*TODO*/ })
+            onClick2 = { navController.navigate(route = AppScreens.PreoFisuraScreen.route) },
+            onClick3 = { navController.navigate(route = AppScreens.PostFistulaScreen.route) })
     }
 }
 

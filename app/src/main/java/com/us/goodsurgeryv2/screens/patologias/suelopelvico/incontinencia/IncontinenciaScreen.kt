@@ -39,8 +39,8 @@ fun IncontinenciaBodyContent(navController: NavController){
     ) {
         CustomContentPrincipal(
             onClick1 = { navController.navigate(route = AppScreens.InfoIncontinenciaScreen.route) },
-            onClick2 = { /*TODO*/ },
-            onClick3 = { /*TODO*/ })
+            onClick2 = { navController.navigate(route = AppScreens.PreoIncontinenciaScreen.route) },
+            onClick3 = { navController.navigate(route = AppScreens.PostIncontinenciaScreen.route) })
     }
 }
 

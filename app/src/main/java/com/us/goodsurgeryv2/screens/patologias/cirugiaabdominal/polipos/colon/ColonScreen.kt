@@ -39,8 +39,8 @@ fun ColonBodyContent(navController: NavController){
     ) {
         CustomContentPrincipal(
             onClick1 = { navController.navigate(route = AppScreens.InfoColonScreen.route) },
-            onClick2 = { /*TODO*/ },
-            onClick3 = { /*TODO*/ })
+            onClick2 = { navController.navigate(route = AppScreens.PreoColonScreen.route) },
+            onClick3 = { navController.navigate(route = AppScreens.PostColonScreen.route) })
     }
 }
 

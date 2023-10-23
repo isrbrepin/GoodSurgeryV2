@@ -39,8 +39,8 @@ fun FistulaBodyContent(navController: NavController){
     ) {
         CustomContentPrincipal(
             onClick1 = { navController.navigate(route = AppScreens.InfoFistulaScreen.route) },
-            onClick2 = { /*TODO*/ },
-            onClick3 = { /*TODO*/ })
+            onClick2 = { navController.navigate(route = AppScreens.PreoFistulaScreen.route) },
+            onClick3 = { navController.navigate(route = AppScreens.PostFistulaScreen.route) })
     }
 }
 

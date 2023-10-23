@@ -39,8 +39,8 @@ fun ColostomiaBodyContent(navController: NavController){
     ) {
         CustomContentPrincipal(
             onClick1 = { navController.navigate(route = AppScreens.InfoColostomiaScreen.route) },
-            onClick2 = { /*TODO*/ },
-            onClick3 = { /*TODO*/ })
+            onClick2 = { navController.navigate(route = AppScreens.PreoColostomiaScreen.route) },
+            onClick3 = { navController.navigate(route = AppScreens.PostColostomiaScreen.route) })
     }
 }
 

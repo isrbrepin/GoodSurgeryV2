@@ -34,8 +34,8 @@ fun RectoceleBodyContent(navController: NavController){
     ) {
         CustomContentPrincipal(
             onClick1 = { navController.navigate(route = AppScreens.InfoRectoceleScreen.route) },
-            onClick2 = { /*TODO*/ },
-            onClick3 = { /*TODO*/ })
+            onClick2 = { navController.navigate(route = AppScreens.PreoRectoceleScreen.route) },
+            onClick3 = { navController.navigate(route = AppScreens.PostRectoceleScreen.route) })
     }
 }
 

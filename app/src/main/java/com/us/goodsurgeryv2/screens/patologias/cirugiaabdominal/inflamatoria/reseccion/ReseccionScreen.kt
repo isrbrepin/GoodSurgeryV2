@@ -39,8 +39,8 @@ fun ReseccionBodyContent(navController: NavController){
     ) {
         CustomContentPrincipal(
             onClick1 = { navController.navigate(route = AppScreens.InfoReseccionScreen.route) },
-            onClick2 = { /*TODO*/ },
-            onClick3 = { /*TODO*/ })
+            onClick2 = { navController.navigate(route = AppScreens.PreoReseccionScreen.route) },
+            onClick3 = { navController.navigate(route = AppScreens.PostReseccionScreen.route) })
     }
 }
 

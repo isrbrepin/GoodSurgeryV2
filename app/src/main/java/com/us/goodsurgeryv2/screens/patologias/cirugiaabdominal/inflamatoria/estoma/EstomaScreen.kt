@@ -41,8 +41,8 @@ fun EstomaBodyContent(navController: NavController){
             onClick1 = {
                 navController.navigate(route = AppScreens.InfoEstomaScreen.route)
              },
-            onClick2 = { /*TODO*/ },
-            onClick3 = { /*TODO*/ })
+            onClick2 = { navController.navigate(route = AppScreens.PreoEstomaScreen.route) },
+            onClick3 = { navController.navigate(route = AppScreens.PostEstomaScreen.route) })
     }
 }
 

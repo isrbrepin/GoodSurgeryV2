@@ -34,8 +34,8 @@ fun ProlapsoBodyContent(navController: NavController){
     ) {
         CustomContentPrincipal(
             onClick1 = { navController.navigate(route = AppScreens.InfoProlapsoScreen.route) },
-            onClick2 = { /*TODO*/ },
-            onClick3 = { /*TODO*/ })
+            onClick2 = { navController.navigate(route = AppScreens.PreoProlapsoScreen.route) },
+            onClick3 = { navController.navigate(route = AppScreens.PostProlapsoScreen.route) })
     }
 }
 

@@ -39,8 +39,8 @@ fun IleostomiaBodyContent(navController: NavController){
     ) {
         CustomContentPrincipal(
             onClick1 = { navController.navigate(route = AppScreens.InfoIleostomiaScreen.route) },
-            onClick2 = { /*TODO*/ },
-            onClick3 = { /*TODO*/ })
+            onClick2 = { navController.navigate(route = AppScreens.PreoIleostomiaScreen.route) },
+            onClick3 = { navController.navigate(route = AppScreens.PostIleostomiaScreen.route) })
     }
 }
 
